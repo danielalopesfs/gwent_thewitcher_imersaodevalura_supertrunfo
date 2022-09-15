@@ -1,0 +1,1 @@
+# gwent_thewitcher_imersaodevalura_supertrunfo

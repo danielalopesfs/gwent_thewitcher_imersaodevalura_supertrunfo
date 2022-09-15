@@ -1,0 +1,79 @@
+body {
+    font-family: 'Snippet', sans-serif;
+    min-height: 700px;
+   /* OBS: A arte do background é de MINHA AUTORIA.*/
+    background-image: url('https://images2.imgbox.com/4e/95/EqdGNytk_o.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: bottom-top;
+    background-repeat: no-repeat;
+    padding: 20vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    font-family: 'Snippet', sans-serif;
+    font-weight: lighter;
+    color: #FFFFFF;
+    background: #A8B545;
+    font-size: 42px;
+    margin: 50px 0;
+}
+
+button {
+    padding: .8rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+#carta-jogador {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 1.5rem;
+}
+
+.carta-status input {
+    margin: 20px 10px;
+}
+
+.opcoes {
+    color: white;
+}
+
+#resultado {
+  color: #FFFFFF;
+  font-size: 38px;
+  color: white;
+  background: #A8B545;
+}
